@@ -1,0 +1,15 @@
+participant_id,group,pre,post
+C01,control,40,41
+C02,control,45,47
+C03,control,50,53
+C04,control,55,59
+C05,control,60,62
+C06,control,65,68
+T01,treatment,40,44
+T02,treatment,45,50
+T03,treatment,50,56
+T04,treatment,55,62
+T05,treatment,60,65
+T06,treatment,65,71
+C07,control,52,
+T07,treatment,52,60

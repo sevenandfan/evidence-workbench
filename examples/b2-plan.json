@@ -1,0 +1,11 @@
+{
+  "schema_version": "retail_task_plan_v1",
+  "status": "execute",
+  "reason": null,
+  "tasks": [
+    {"kind": "overview", "current_month": "2011-11", "previous_month": null, "dimension": null, "top_n": 5},
+    {"kind": "compare", "current_month": "2011-11", "previous_month": "2011-10", "dimension": null, "top_n": 5},
+    {"kind": "contributors", "current_month": "2011-11", "previous_month": "2011-10", "dimension": "country", "top_n": 5},
+    {"kind": "quality", "current_month": null, "previous_month": null, "dimension": null, "top_n": 5}
+  ]
+}

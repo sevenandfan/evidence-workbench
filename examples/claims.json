@@ -1,0 +1,9 @@
+{
+  "schema_version": "1",
+  "source": "Synthetic manuscript v1, Table 2 (hand-authored demonstration; not a published paper)",
+  "claims": [
+    {"id": "C1", "metric": "estimate", "expected": 3, "abs_tolerance": 0.000001},
+    {"id": "C2", "metric": "t", "expected": 4.954336943068623, "abs_tolerance": 0.000001},
+    {"id": "C3", "metric": "estimate", "expected": 5, "abs_tolerance": 0.01}
+  ]
+}

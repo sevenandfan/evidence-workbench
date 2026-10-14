@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "title": "Synthetic study: replicate group differences in pre-post change",
+  "dataset_sha256": "1eeb2350cdaa989363ccd9498c80378bef66a6740407fca96492e37df54f2668",
+  "method": "welch_change",
+  "missing": "complete_case",
+  "confidence": 0.95,
+  "control": "control",
+  "treatment": "treatment",
+  "score_min": 0,
+  "score_max": 100,
+  "exclude_ids": ["T07"]
+}
