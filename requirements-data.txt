@@ -1,0 +1,3 @@
+# Optional source-workbook reading. Statistical execution uses requirements.txt.
+openpyxl==3.1.5
+xlrd==2.0.1

@@ -1,0 +1,7 @@
+runs
+evals
+tests
+.venv
+.tools
+__pycache__
+.git

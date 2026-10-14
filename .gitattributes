@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+*.html text eol=lf
+
+# This fixture is bound by SHA-256 in examples/plan.json. Preserve its exact
+# bytes across clones instead of normalizing line endings.
+examples/study.csv -text

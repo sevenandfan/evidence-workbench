@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+.venv/
+.tools/
+.pytest_cache/
+runs/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.b2.example
+*.dpapi
+
+# Source datasets and prepared databases are reproducibly acquired at runtime.
+# They are licensed separately and are intentionally not redistributed here.
+data/
+
+# Machine-local audit and handoff documents. Public evidence lives in README,
+# evals/ and docs/.
+/交付入口.md
+/交付文件清单.md
+/企业版产品说明.md
+/企业版演示稿.md
+/求职作品说明.md
+/五分钟演示与答辩.md
+/项目审查与基线-v0.1.md
+/B2全流程计划与状态.md
+/evals/dependency-lock-check.json
+/evals/scipy-wheel-recovery.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
