@@ -1,0 +1,632 @@
+{
+  "created_at": "2026-10-13T13:36:15.432173+00:00",
+  "kind": "fixed_development_regression_not_heldout",
+  "tests_run": 122,
+  "passed": 122,
+  "skipped": 0,
+  "elapsed_seconds": 35.27265040000202,
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "test_sources_sha256": {
+    "test_b2_contract.py": "49c955033b3894df74c9d4979bc4b93d351650eb241e7180a1b7849141ec5a70",
+    "test_b2_provider.py": "44c7d23dd452bce3f1bdf7a622e2011ef4ca1d8976f2b1a2d4c8fae404a5981e",
+    "test_end_to_end.py": "332ca9c48b2e1460f81749459a1ea854f8fb8b7217aaef44e1143ffa4717ab3c",
+    "test_engine.py": "42f637ddaba17c01e02a5d3894838a11642037bc3199878f874e9ed29132bd49",
+    "test_participants.py": "d88159bb426b880ebf2e927a2258d8004deeada749501f1730d7016b82d050b9",
+    "test_retail.py": "0dba33bf7e5321e052c9cce5cf13d5c4a8df7b6ab5b754bdb6d2518cd577b051",
+    "test_site_mapping.py": "f664b55f51df24c9d32fc91201660fe957bcd6d8525916a6b80d6f4325985fc0",
+    "test_summary.py": "871d2b904476186e749cc975cb63d62576633d4b42c0ca822f77e9ccbb887211"
+  },
+  "cases": [
+    {
+      "id": "test_b2_contract.B2ContractTests.test_arbitrary_tool_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_bool_top_not_integer",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_clarify_does_not_execute",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_contribution_reconciliation",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_excess_tasks_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_invalid_period_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_malformed_status_is_structured_failure",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_multi_task_executes_actual_count",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_no_concealed_overview_filter",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_overview_uses_backend_value",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_partial_comparison_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_partial_overview_has_warning",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_quality_not_falsely_filtered",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_sql_field_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_unsupported_does_not_execute",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_contract.B2ContractTests.test_write_path_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_auth_error_is_safe_and_counted_uncertain",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_budget_blocks_before_transport",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_budget_includes_prior_runs",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_case_comparison_accepts_declared_safe_reason_alternative",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_case_comparison_catches_wrong_parameter",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_custom_gateway_requires_prices",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_dpapi_file_loader_is_selected_without_plaintext_env",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_insecure_or_credential_url_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_invalid_first_plan_gets_one_repair",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_live_run_artifacts_replay_without_second_model_call",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_messages_contain_catalog_schema_and_question",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_missing_key_stops_before_call",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_official_defaults_and_secret_not_public",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_prior_cost_sums_run_only_fields",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_siliconflow_disables_thinking",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_unknown_plan_field_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_usage_cost_and_no_secret_in_payload",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_b2_provider.ProviderTests.test_valid_plan_has_no_repair",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.FullChainTests.test_changed_derived_data_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.FullChainTests.test_manifest_extra_key_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.FullChainTests.test_missing_artifact_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.FullChainTests.test_real_chain_and_readonly_replay",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.RebuildTests.test_author_means_not_used_as_inputs",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.RebuildTests.test_incomplete_map_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.RebuildTests.test_wrong_gold_is_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_end_to_end.RebuildTests.test_wrong_reference_identity_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_01_hand_calculated_oracle",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_02_claim_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_03_wrong_hash",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_04_unknown_method",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_05_arbitrary_code_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_06_sql_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_07_write_action_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_08_missing_plan_field",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_09_strict_numeric_type",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_10_json_parse",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_11_duplicate_json_key",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_12_nonfinite_json",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_13_missing_column",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_14_duplicate_participant",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_15_unknown_group",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_16_invalid_number",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_17_nonfinite_number",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_18_range",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_19_missing_reject",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_20_unknown_exclusion",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_21_constant_change",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_22_small_sample",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_23_ragged_csv",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_24_invalid_claim",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_25_duplicate_claim",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_26_negative_tolerance",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_27_row_order_invariant",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_28_reversed_contrast",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_29_unequal_variance_df",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_30_end_to_end_replay_and_tamper",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_31_render_failure_no_success_output",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_32_resource_limit",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_33_report_escapes_untrusted_text",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_34_extreme_score_range",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_engine.EngineTests.test_35_snapshot_lineage_consistency",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_participants.ParticipantTests.test_bad_scale_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_participants.ParticipantTests.test_condition_mapping_not_tuned_to_gold",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_participants.ParticipantTests.test_declared_descriptive_statistics",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_participants.ParticipantTests.test_missing_response_recorded",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_participants.ParticipantTests.test_unmapped_site_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailIntegrationTests.test_false_summary_with_updated_hash_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailIntegrationTests.test_missing_result_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailIntegrationTests.test_real_replay",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailIntegrationTests.test_tampered_result_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_amount_not_rounded_per_row",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_cancellation_positive_sign_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_derived_amount_tamper_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_dimension_contributions_add_up",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_duplicates_reported_but_retained",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_independent_sql_decimal_hand_oracle",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_invoice_lines_not_counted_as_orders",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_missing_customer_not_dropped",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_negative_normal_sale_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_no_invented_profit_or_conversion",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_nonpositive_excluded_not_zero_quality",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_retail.RetailTests.test_unknown_metric_rejected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_condition_drift",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_count_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_duplicate_id",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_many_to_one",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_matches_ids_not_order",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_response_drift",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_site_mapping.SiteMappingTests.test_unmatched_id",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_01_all_external_gold",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_02_confidence_rule",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_03_independent_b0",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_04_reference_corruption_detected",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_05_hash_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_06_unknown_action",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_07_method_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_08_direction_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_09_invalid_n",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_10_zero_sd",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_11_missing_gold",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_12_duplicate_site",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_13_tolerance_relaxation",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_14_source_commit_mismatch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_15_non_synthetic_marker",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_16_effect_size_distinction",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "test_summary.SummaryTests.test_17_site_counts_reconcile",
+      "status": "passed",
+      "detail": null
+    }
+  ]
+}
