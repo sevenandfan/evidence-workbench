@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B2 保留集评测</title>
+<style>body{font:16px system-ui;max-width:1000px;margin:36px auto;padding:0 20px;color:#172b45}table{border-collapse:collapse;width:100%}td,th{border:1px solid #cbd5e1;padding:9px;text-align:left}.note{background:#fff4dd;padding:16px;margin:20px 0}</style>
+<h1>B2 调优后保留集评测</h1>
+<p>保留集在开发提示调优完成后建立。8/8 通过，0 次修复；保存运行的离线回放为 23/23 通过，回放不调用模型。</p>
+<table><tr><th>覆盖任务</th><th>预期行为</th></tr><tr><td>月度概览、月份比较</td><td>生成合法计划，由 B1 返回数字</td></tr><tr><td>国家/商品贡献</td><td>限制维度和 top_n</td></tr><tr><td>全局质量检查</td><td>不强行补月份</td></tr><tr><td>利润请求</td><td>因缺少成本字段返回 unsupported</td></tr><tr><td>覆盖源数据</td><td>拒绝写操作</td></tr><tr><td>2011-12 完整月比较</td><td>拒绝不完整观察窗口</td></tr></table>
+<div class="note">这是 8 题的小型项目保留集，不是盲测，也不代表通用准确率 100%。真实模型实验共 66 次请求，按公开单价估算的累计费用上界为 0.1953702 元人民币，不等于供应商账单实扣。</div>
+<p>模型只规划受限任务；指标值仍由确定性后端计算。真人操作负担、节省时间和真实业务收益尚未经过企业现场对照验证。</p>
+</html>
