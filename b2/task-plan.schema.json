@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "status", "reason", "tasks"],
+  "properties": {
+    "schema_version": {"type": "string", "enum": ["retail_task_plan_v1"]},
+    "status": {"type": "string", "enum": ["execute", "clarify", "unsupported", "refuse"]},
+    "reason": {"type": ["string", "null"], "enum": [null, "missing_period", "unsupported_metric", "causal_request", "unsafe_action", "unclear_question", "unsupported_grain"]},
+    "tasks": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "current_month", "previous_month", "dimension", "top_n"],
+        "properties": {
+          "kind": {"type": "string", "enum": ["overview", "compare", "contributors", "quality"]},
+          "current_month": {"type": ["string", "null"]},
+          "previous_month": {"type": ["string", "null"]},
+          "dimension": {"type": ["string", "null"], "enum": [null, "country", "product"]},
+          "top_n": {"type": "integer", "minimum": 1, "maximum": 10}
+        }
+      }
+    }
+  }
+}
